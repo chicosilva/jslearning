@@ -1,4 +1,6 @@
-var Message = require('./models/message');
+var Message = require("./models/message");
 
-mensagem = new Message.Message('teste')
-console.log(mensagem.text);
+let mensagem = null;
+
+mensagem = new Message.Message("teste");
+mensagem.getMessages();
